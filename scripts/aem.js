@@ -424,8 +424,9 @@ function decorateButtons(element) {
     if (a.href !== a.textContent) {
       const up = a.parentElement;
       const twoup = a.parentElement.parentElement;
+      const parentIsLogo = a.closest('logo.block');
       if (!a.querySelector('img')) {
-        if (up.childNodes.length === 1 && (up.tagName === 'P' || up.tagName === 'DIV')) {
+        if (up.childNodes.length === 1 && (up.tagName === 'P' || up.tagName === 'DIV') && !parentIsLogo) {
           a.className = 'button'; // default
           up.classList.add('button-container');
         }
