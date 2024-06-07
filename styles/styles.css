@@ -12,8 +12,8 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #80ba27;
+  --link-hover-color: #80ba27;
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
@@ -21,7 +21,7 @@
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
-  --heading-font-family: var(--body-font-family);
+  --heading-font-family: font-family: calibre, helvetica, tahoma, arial, sans-serif;
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
@@ -223,6 +223,59 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+}
+
+.h1,h1 {
+  font-weight: 300;
+  font-size: 5rem;
+  color: #000;
+  letter-spacing: -.084rem;
+  line-height: 6rem;
+  margin-bottom: 3rem
+}
+
+@media (width <= 1023.9px) {
+  .h1,h1 {
+      font-size:3rem;
+      line-height: 3.5rem;
+      margin-bottom: 1.5rem
+  }
+}
+
+.h2,h2 {
+  font-weight: 300;
+  font-size: 4rem;
+  color: #000;
+  letter-spacing: -.02rem;
+  line-height: 4.5rem;
+  margin: 0;
+  padding: 0
+}
+
+@media (width <= 1023.9px) {
+  .h2,h2 {
+      font-size:3rem;
+      line-height: 3.5rem;
+      letter-spacing: -.05rem
+  }
+}
+
+.h3,h3 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: #000;
+  letter-spacing: -.015rem;
+  line-height: 4rem;
+  margin: 0;
+  padding: 0
+}
+
+@media (width <= 1023.9px) {
+  .h3,h3 {
+      font-size:2.6rem;
+      line-height: 3rem
+  }
+
 }
 
 .error .container-fluid-container {
