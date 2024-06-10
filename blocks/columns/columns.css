@@ -31,3 +31,16 @@
     order: unset;
   }
 }
+
+.columns.layout-wrapper {
+  width: calc(100% - 20px);
+  margin-top: 20px;
+}
+
+@media (width >= 900px) {
+  .columns.layout-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+}
