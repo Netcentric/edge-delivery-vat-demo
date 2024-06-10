@@ -2,18 +2,17 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  display: flex;
   grid-gap: 16px;
 }
 
 .cards > ul > li {
-  border: 1px solid var(--dark-color);
+  flex: 1;
   background-color: var(--background-color);
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  margin: 16px 0;
 }
 
 .cards .cards-card-image {
@@ -28,4 +27,15 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 4px;
+}
+
+.cards > ul > li p {
+  font-size: 16px;
+}
+
+.cards > ul > li h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
 }
