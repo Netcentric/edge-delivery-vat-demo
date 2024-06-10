@@ -202,6 +202,10 @@
 
     margin: 2.5rem 5rem;
   }
+  
+  .carousel .carousel-slide .carousel-slide-content h3 {
+    color: #fff;
+  }
 
   .carousel .carousel-slide .carousel-slide-content[data-align="justify"] {
     --slide-content-width: auto;
