@@ -167,7 +167,8 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-color);
+  background-color: var(--background-color);
+  color: var(--link-color);
   cursor: pointer;
 }
 
@@ -180,7 +181,13 @@ button:disabled:hover {
 a.button.secondary,
 button.secondary {
   background-color: unset;
-  border: 2px solid currentcolor;
+  color: var(--link-color);
+  display: flex;
+  gap: 16px;
+}
+
+a.button.secondary:hover,
+button.secondar:hover {
   color: var(--text-color);
 }
 
@@ -200,6 +207,19 @@ main img {
   height: 100%;
   width: 100%;
 }
+
+/* icon-styles starts here */
+.icon-arrow-right {
+  align-self: center;
+  height: 16px;
+  width: 16px;
+}
+
+.icon-arrow-right img {
+  display: block;
+}
+
+/* icon-styles  ends here */
 
 /* sections */
 main .section {
