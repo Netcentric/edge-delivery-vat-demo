@@ -9,7 +9,7 @@ main .hero-container {
 .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  min-height: 550px;
 }
 
 .hero h1 {
@@ -40,4 +40,11 @@ main .hero-container {
 .hero h5,
 .hero h6 {
   color: white;
+}
+
+.hero.about-us.block {
+  > div:nth-child(2) {
+    margin: 32px 16%;
+    color: white;
+  }
 }
