@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic / Arrow-medium 2</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Textlink-/-SmallSize-/-Default" transform="translate(-153.000000, -10.000000)" stroke="#80BA27" stroke-width="2">
+            <g id="ic-/-Arrow-medium-2" transform="translate(153.000000, 10.000000)">
+                <g id="ic-/-Arrow-down" transform="translate(3.000000, 5.000000) rotate(-90.000000) translate(-3.000000, -5.000000) translate(-1.500000, 2.500000)">
+                    <polyline id="Path" transform="translate(4.500000, 2.500000) rotate(-270.000000) translate(-4.500000, -2.500000) " points="2.5 6.5 6.5 2.5 2.5 -1.5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

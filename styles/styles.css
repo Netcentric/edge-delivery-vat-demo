@@ -13,7 +13,7 @@
 :root {
   /* colors */
   --link-color: #80ba27;
-  --link-hover-color: #80ba27;
+  --link-hover-color: #000;
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
@@ -167,7 +167,7 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: var(--link-color);
   cursor: pointer;
 }
 
