@@ -7,7 +7,7 @@
       "environments": ["edit"],
       "url": "/tools/sidekick/library.html",
       "excludePaths": ["**"],
-      "includePaths": ["**.docx**", "/document/**"]
+      "includePaths": ["**.doc**", "/document/**"]
     }
   ]
 }
